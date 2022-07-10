@@ -34,6 +34,10 @@ table, th, td {
   border-collapse: collapse;
 }
 
+table{
+  margin: 15px;
+}
+
 th {
   background-color: #EA9E8D;
 }
