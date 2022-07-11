@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 html{
   background-color: #006C67;
 }
@@ -28,9 +32,32 @@ p{
 }
 
 .menubar {
-  padding: 25px 35px;
-  background: #DAEFB3;
-  border-bottom: 2px solid #DAEFB3;
+  padding: 1rem;
+  background-color: #DAEFB3;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.menubar a {
+  display: inline-block;
+  min-width: 10rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: solid 2px #006C67;
+  text-align: center;
+  text-decoration: none;
+  color: #006C67;
+  font-weight: bold;
+}
+
+.menubar a[aria-current = "page"]{
+  font-weight: bold;
+  color: #EA9E8D;
+  background-color: #EEF4D4;
+  border: solid 2px #EA9E8D;
+
 }
 
 a:link {
