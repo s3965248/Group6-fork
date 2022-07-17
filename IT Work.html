@@ -66,7 +66,7 @@
   animation-duration: 1.5s;
 }
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 @media only screen and (max-width: 300px) {
@@ -76,6 +76,13 @@
   <link rel="stylesheet" href="styles.css" />
   <title> IT Work </title>
 </head>
+
+<header>
+  <div class="footer">
+		<img src="plantr.png" alt="App Logo" height = "150" width = "150" style="float: left;">
+		<img src="plantr.png" alt="App Logo" height = "150" width = "150" style="float: right;">
+  </div>
+</header>
 
 <body>
   <div id="container">
@@ -97,7 +104,7 @@
        <div class="mainarea">
        <h1>IT Work</h1>
        <section>
-      <p>The IT professional I have interviewed is Steven Coochin (aka DeveloperSteve), who has worked for many different companies and in a variety of roles. Steven worked as a developer, developer advocate/evangelist and chief technology officer (CTO). Steven did his 100th talk in 2016 at Xero in New Zealand.</p> 
+      <p>The IT professional I have interviewed is Steven Coochin (aka DeveloperSteve), who has worked for many different companies and in a variety of roles. Steven worked as a developer, developer advocate/evangelist and chief technology officer (CTO). Steven did his 100th talk in 2016 at Xero in New Zealand.</p>
       <p>Some of the more notable highlights of Steven’s career include meeting a variety of coding language, platform and start-up/company founders and creators like Yukihiro Matsumoto (Chief Architect of Ruby), Hex and Banjo (from Good Game Spawn point), John Donahoe (previous president of Ebay and CEO of Nike), Massimo Banzi (founder of Arduino), working with the United Nations on a global hackathon series; and livestreaming for 9 hours straight with industry guests. DevStev (2022) Steven has worked for brands including Snyk, PayPal, Xero, BrainTree, IBM, Telstra, and Nginx.</p>
       <div class="slideshow-container">
 <div class="mySlides fade">
@@ -125,8 +132,8 @@
 </div>
 <br>
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
 </div>
@@ -143,15 +150,15 @@ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
@@ -168,14 +175,14 @@ function showSlides(n) {
         <li>Industry professionals: Submitting talks to conferences and blog/livestream related content creation with product mentions. Additionally building out demos and relevant fun code-related projects.</li>
         <li>General public: Sharing knowledge via a variety of mediums (Livestreams on YouTube/twitch/twitter/LinkedIn/Facebook/Discord/Slack/GitHub, twitter, reddit, blogs, zoom, virtual event platforms, stack overflow, Virtual reality platforms like AltSpace.</li>
         <li>Developer communities: Tracking ways to resonate content, understanding latest industry shift along with knowledge-sharing and representing the company/brand in the best way possible.</li>
-      </ul> 
+      </ul>
       <h2>Where does the IT professional spend most of their time?</h2>
       <p>Working 100% remotely Steven spends a lot of time interacting with various industry community groups on Twitter, Twitch, YouTube, Slack, Discord, LinkedIn, VR (Virtual Reality) worlds/platforms and other social platforms. More specifically A combination of livestreaming/video production, technical writing, blog writing, events for starters.</p>
-      <h2>What aspect of their position is most challenging?</h2> 
+      <h2>What aspect of their position is most challenging?</h2>
       <p>Developer Relations is a multi-hat role and often changes faster than that of most of the tech industry. Juggling all the activities, developer relations is a many hats role and sometimes it gets tricky knowing when to swap to what hat. on top of everything steven does is also being aware of new and emerging trends to talk about or use as part of content to engage the developer audience. He's not really marketing, development, or sales.</p>
       <h2>Conclusion </h2>
       <p>Learning about Steven’s average day in the office the part that most surprised me most was the fact that Developer Relations has so many distinct roles they need to do, and how fast the job can change. Having to work with so many different departments would be a challenge with time management and social skills – I don’t think I could ever do that job! Steven mostly works with people in Israel while living in Australia in a company with a global reach, so the difference in time zones would also be hard. Steven's wide-ranging career in the IT industry so far really shows the diversity and breadth of Information Technology. As for what's in the future for DeveloperSteve – we will just have to wait and see!</p>
-      <h2>Bibliography 
+      <h2>Bibliography
       <p>Craft (Craft) (2022) Lumigo, Craft website accessed at 30 of June 2022</p><a href="https://craft.co/lumigo">https://craft.co/lumigo</a>
       <p>LMT (Log My Trip) (2022) developersteve, LMT website accessed 1 of July 2022</p><a href="https://www.logmytrip.net/logmyflight/developersteve">https://www.logmytrip.net/logmyflight/developersteve</a>
       <p>DevStev (Developer Steve) (2022) press kit, DevStev website accessed 1 of July 2022<a href="https://developersteve.com/press-kit/">https://developersteve.com/press-kit/</a>
