@@ -149,3 +149,17 @@ th, td {
 .button:hover+.dropdown, .dropdown:hover {
   display: block;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #DAEFB3 15%, #003844 84%);
+  border-radius: 100px;
+}
