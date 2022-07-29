@@ -150,6 +150,7 @@ th, td {
   display: block;
 }
 
+
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -161,5 +162,5 @@ th, td {
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #DAEFB3 15%, #003844 84%);
-  border-radius: 100px;
+  border-radius: 10px;
 }
