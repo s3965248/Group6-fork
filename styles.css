@@ -172,3 +172,19 @@ th, td {
   background: linear-gradient(180deg, #DAEFB3 15%, #003844 84%);
   border-radius: 10px;
 }
+
+.content {
+  padding: 1.5rem;
+  border: 1px solid  #006C67;
+  border-radius: 30px;
+  animation: updown 1s linear infinite;
+}
+
+@keyframes updown {
+  0% 100% {
+    transform: trandlateY(0);
+  }
+  50% {
+    transition: translateY(20px);
+  }
+}
