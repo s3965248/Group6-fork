@@ -99,3 +99,53 @@ th, td {
   margin: 10px auto 20px;
   display: block;
 }
+
+.dropdown {
+  position: absolute;
+  text-align: center;
+  background: #ffff;
+  font-size: 14px;
+  display: none;
+  padding: 0;
+}
+
+.dropdown ul {
+  padding: 0px;
+  margin: 0px;
+  min-width: 200px;
+  list-style: none;
+  border-bottom: 1px solid #000;
+}
+
+.dropdown ul li {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #006C67;
+  text-align: left;
+}
+
+.dropdown ul li a {
+  text-decoration: none;
+  color: #006C67;
+}
+
+.button {
+  background-color: #DAEFB3;
+  border: solid 2px #006C67;
+  color: #006C67;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown ul li:hover {
+  background: #DAEFB3;
+}
+
+.button:hover+.dropdown, .dropdown:hover {
+  display: block;
+}
