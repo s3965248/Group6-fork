@@ -40,6 +40,7 @@ p, li{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 
 .menubar a {
@@ -103,7 +104,6 @@ th, td {
 .dropdown {
   position: absolute;
   text-align: center;
-  background: #ffff;
   font-size: 14px;
   display: none;
   padding: 0;
@@ -121,6 +121,11 @@ th, td {
   padding: 10px 10px 10px 10px;
   border: 1px solid #006C67;
   text-align: left;
+  border-radius: 0.5rem;
+}
+
+.dropdown ul li:nth-child(even) {
+  background: #DAEFB3;
 }
 
 .dropdown ul li a {
@@ -143,7 +148,10 @@ th, td {
 }
 
 .dropdown ul li:hover {
-  background: #DAEFB3;
+  color: #EA9E8D;
+  background-color: #EEF4D4;
+  border: solid 2px #EA9E8D;
+  border-radius: 0.5rem;
 }
 
 .button:hover+.dropdown, .dropdown:hover {
