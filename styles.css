@@ -7,7 +7,7 @@ html{
 }
 
 body {
-  background: linear-gradient(to right,#003844,#EEF4D4);
+  background: linear-gradient(to left,#003844,#EEF4D4);
   padding: 20px;
   font-size: 16px;
   margin: 30px auto;
