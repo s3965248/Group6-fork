@@ -8,7 +8,6 @@ html{
 
 body {
   background: linear-gradient(to left,#006C67,#EEF4D4);
-  padding: 20px;
   font-size: 16px;
   margin: 30px auto;
   max-width: 1280px
@@ -20,7 +19,6 @@ body {
   overflow-x: hidden;
 }
 
-
 h1, h2, h3, p, li {
   color: #003844;
   font-family: Radis sans, Gotham, sans-serif;
@@ -28,6 +26,7 @@ h1, h2, h3, p, li {
 
 h1 {
   text-align: center;
+  margin-top: 270px;
 }
 
 h2 {
@@ -45,7 +44,9 @@ p, li{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .menubar a {
@@ -69,7 +70,38 @@ p, li{
   color: #EA9E8D;
   background-color: #EEF4D4;
   border: solid 2px #EA9E8D;
+}
 
+.menubarTechnologies{
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.menubarTechnologies a {
+  display: inline-block;
+  min-width: 10rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: solid 2px #006C67;
+  text-align: center;
+  text-decoration: none;
+  color: #006C67;
+  font-weight: bold;
+}
+
+.menubarTechnologies a:hover {
+  border: solid 2px turquoise;
+}
+
+.menubarTechnologies a[aria-current = "page"]{
+  font-weight: bold;
+  color: #EA9E8D;
+  background-color: #EEF4D4;
+  border: solid 2px #EA9E8D;
 }
 
 a:link {
@@ -79,7 +111,6 @@ a:link {
 .footer {
   text-align: center;
   background: linear-gradient(to right,#006C67, #EEF4D4);
-  border-radius: 5px;
 }
 
 table, th, td {
