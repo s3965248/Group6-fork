@@ -3,12 +3,11 @@
 }
 
 html{
-  background-color: #006C67;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #EEF4D4;
+  background: linear-gradient(to right,#003844,#EEF4D4);
   padding: 20px;
   font-size: 16px;
   margin: 30px auto;
@@ -41,7 +40,7 @@ p, li{
 
 .menubar {
   padding: 1rem;
-  background-color: #DAEFB3;
+  background: linear-gradient(to right,#006C67, #EEF4D4);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -79,7 +78,8 @@ a:link {
 
 .footer {
   text-align: center;
-  background: #DAEFB3;
+  background: linear-gradient(to right,#006C67, #EEF4D4);
+  border-radius: 5px;
 }
 
 table, th, td {
