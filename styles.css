@@ -213,3 +213,7 @@ th, td {
   background: linear-gradient(180deg, #DAEFB3 15%, #003844 84%);
   border-radius: 10px;
 }
+
+.members {
+  column-count: 5
+}
