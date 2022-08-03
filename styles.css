@@ -61,6 +61,10 @@ p, li{
   font-weight: bold;
 }
 
+.menubar a:hover {
+  border: solid 2px turquoise;
+}
+
 .menubar a[aria-current = "page"]{
   font-weight: bold;
   color: #EA9E8D;
