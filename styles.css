@@ -37,6 +37,7 @@ p, li{
   font-size: 18px;
 }
 
+/*menubar*/
 .menubar {
   padding: 0.5rem;
   background: linear-gradient(to right,#A0FFD4, #EEF4D4);
@@ -109,11 +110,16 @@ p, li{
   border: solid 2px #EA9E8D;
 }
 
+a:link {
+  color: black;
+}
+
 .footer {
   text-align: center;
   background: linear-gradient(to right,#A0FFD4, #EEF4D4);
 }
 
+/*tables*/
 table, th, td {
   border: 2px solid #006C67;
   border-collapse: collapse;
@@ -143,6 +149,7 @@ th, td {
   display: block;
 }
 
+/*dropdown menu*/
 .dropdown {
   position: absolute;
   text-align: center;
@@ -201,6 +208,7 @@ th, td {
 }
 
 
+/*scrollbar*/
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -215,10 +223,72 @@ th, td {
   border-radius: 10px;
 }
 
-.members {
-  column-count: 5
+/*parallax effect*/
+.demo-wrapper {
+  min-height: 500px;
 }
 
-a:link {
-  color: black;
+.bsap_1280449 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 100px;
+  text-indent: -9999px;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+.parallax [class*="bg__"]:nth-child(2n) {
+  box-shadow: inset 0 0 1em #111;
+}
+.parallax .bg__foo, .parallax .bg__bazz {
+  height: 30vh;
+}
+.parallax .bg__foo {
+  background-image: url(https://i.ibb.co/1TMt8km/Leaves.jpg);
+}
+.parallax .bg__bar {
+  background-image: url(https://i.ibb.co/3m2BNsk/Leaves-Grey.jpg);
+}
+.parallax .bg__baz {
+  background-image: url(https://i.ibb.co/1TMt8km/Leaves.jpg);
+}
+
+.parallax .bg__break {
+  box-shadow: inset 0 0 1em #111;
+  background-image: url(https://i.ibb.co/1TMt8km/Leaves.jpg);
+}
+.parallax .capture {
+  float: right;
+  width: 200px;
+  padding: 1em;
+  margin: -1.5em 1em 0 0;
+  text-indent: 0;
+  box-shadow: 0 1px 0.125em #333;
+}
+
+article .container {
+  width: 600px;
+  margin: 0 auto;
+}
+article .header {
+  position: relative;
+  text-align: left;
+  font-size: 2em;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+article section.parallax {
+  margin: 0;
+  padding: 0;
+}
+
+#frame {
+  width:960px;
+  margin: 0 auto;
 }
