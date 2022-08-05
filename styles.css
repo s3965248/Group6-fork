@@ -7,7 +7,7 @@ html{
 }
 
 body {
-  background: linear-gradient(to left,#006C67,#DAEFB3);
+  background: linear-gradient(to left,#006C67,#A0FFD4);
   font-size: 16px;
   margin: 30px auto;
   max-width: 1280px
@@ -38,8 +38,8 @@ p, li{
 }
 
 .menubar {
-  padding: 1rem;
-  background: linear-gradient(to right,#006C55, #EEF4D4);
+  padding: 0.5rem;
+  background: linear-gradient(to right,#A0FFD4, #EEF4D4);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -63,6 +63,11 @@ p, li{
 
 .menubar a:hover {
   border: solid 2px turquoise;
+}
+
+
+.menubar a:link {
+  color: #006C67;
 }
 
 .menubar a[aria-current = "page"]{
@@ -104,13 +109,9 @@ p, li{
   border: solid 2px #EA9E8D;
 }
 
-a:link {
-  color: #006C67;
-}
-
 .footer {
   text-align: center;
-  background: linear-gradient(to right,#006C55, #EEF4D4);
+  background: linear-gradient(to right,#A0FFD4, #EEF4D4);
 }
 
 table, th, td {
@@ -216,4 +217,8 @@ th, td {
 
 .members {
   column-count: 5
+}
+
+a:link {
+  color: black;
 }
