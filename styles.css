@@ -235,7 +235,6 @@ th, td {
 }
 
 .parallax [class*="bg__"] {
-  position: relative;
   height: 100px;
   text-indent: -9999px;
   background-attachment: fixed;
