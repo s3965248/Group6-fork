@@ -27,6 +27,7 @@ h1, h2, h3, p, li {
 h1 {
   text-align: center;
   margin-top: 270px;
+  font-size: 45px;
 }
 
 h2 {
@@ -276,9 +277,10 @@ th, td {
 }
 
 article .container {
-  width: 900px;
   margin: 0 auto;
+  padding: 1.5rem;
 }
+
 article .header {
   position: relative;
   text-align: left;
@@ -293,6 +295,6 @@ article section.parallax {
 }
 
 #frame {
-  width:960px;
   margin: 0 auto;
+  padding: 1rem;
 }
