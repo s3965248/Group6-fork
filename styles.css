@@ -149,7 +149,7 @@ th, td {
 .dropdown {
   position: absolute;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   display: none;
   padding: 0;
 }
@@ -170,7 +170,11 @@ th, td {
 }
 
 .dropdown ul li:nth-child(even) {
-  background: #DAEFB3;
+  background: linear-gradient(to right,#A0FFD4, #EEF4D4);
+}
+
+.dropdown ul li:nth-child(odd) {
+  background: linear-gradient(to right,#EEF4D4, #A0FFD4);
 }
 
 .dropdown ul li a {
@@ -178,8 +182,13 @@ th, td {
   color: #006C67;
 }
 
+.dropdown ul li a[aria-current = "page"]{
+  font-weight: bold;
+  color: #EA9E8D;
+}
+
 .button {
-  background-color: #DAEFB3;
+  background-color: #A0DFD4;
   border: solid 2px #006C67;
   color: #006C67;
   padding: 10px 20px;
@@ -195,7 +204,7 @@ th, td {
 .dropdown ul li:hover {
   color: #EA9E8D;
   background-color: #EEF4D4;
-  border: solid 2px #EA9E8D;
+  border: solid 2px turquoise;
   border-radius: 0.5rem;
 }
 
