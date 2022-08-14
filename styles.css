@@ -278,7 +278,7 @@ th, td {
 
 article .container {
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 3.5rem;
 }
 
 article .header {
@@ -296,5 +296,5 @@ article section.parallax {
 
 #frame {
   margin: 0 auto;
-  padding: 1rem;
+  padding: 3rem;
 }
