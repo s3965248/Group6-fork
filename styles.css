@@ -26,12 +26,8 @@ h1, h2, h3, p, li {
 
 h1 {
   text-align: center;
-  margin-top: 270px;
+  margin-top: 200px;
   font-size: 45px;
-}
-
-h2 {
-  padding-top: 30px;
 }
 
 p, li{
@@ -53,7 +49,6 @@ p, li{
 
 .menubar a {
   display: inline-block;
-  min-width: 10rem;
   padding: 0.3rem;
   border-radius: 0.5rem;
   border: solid 2px #006C67;
@@ -245,7 +240,7 @@ th, td {
   height: 100px;
   text-indent: -9999px;
   background-attachment: fixed;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
 }
 .parallax [class*="bg__"]:nth-child(2n) {
